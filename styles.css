@@ -1,0 +1,94 @@
+body{
+    background-color: aliceblue;
+}
+
+h1 {
+    color: darkblue;
+    text-shadow:  2px 4px rgba(28, 26, 26, 0.6);
+
+}
+
+div.background-fade {
+    font: 18px ;
+    background-color: rgba(115, 166, 208, 0.4);
+}
+
+button.engaging {
+    background-color: rgb(21, 21, 83);
+    color: white;
+    border: 2px solid wheat;
+    height: 50px;
+    width: 150px;
+    box-shadow: 1px 3px rgba(28, 26, 26, 0.8);
+}
+
+button.engaging:hover {
+    background-color: rgba(230, 137, 23, 0.5);
+    color: white;
+    border: 1px solid rgb(129, 244, 156);
+    height: 75px;
+    width: 175px;
+    box-shadow: 2px 6px rgba(95, 81, 81, 0.837);
+}
+div.hyperlink {
+    margin: 25px;
+    padding: 15px;
+   border: 1px double black;
+}
+
+
+a.link {
+    display: block;
+    background-color: rgb(162, 198, 228);
+    margin: 20px;
+    border: 3px groove black;
+    justify-content: space-around;
+    text-align: center;
+}
+
+a.link:hover {
+    border: 4px double rgb(34, 230, 76);
+    color: whitesmoke;
+    background-color: blue;
+    transition: ease-in, 1s linear;
+
+}
+@keyframes grow_button {
+   
+}
+
+button.keyframe {
+    display: block;
+    justify-self: center;
+    height: 50px;
+    width: 150px;
+    box-shadow: 1px 3px rgba(28, 26, 26, 0.8);
+}
+button.keyframe:hover {
+    display: block;
+    justify-self: center;
+    animation: grow_button 5s;
+    box-shadow: 2px 10px rgba(28, 26, 26, 0.4);
+}
+
+@keyframes rotate {
+    from{transform: rotate(0deg); }
+    to{transform: rotate(360deg); }
+    
+}
+
+div.rotate {
+    display: block;
+    justify-self: center;
+}
+
+img {
+    border-radius: 8px;
+    justify-self: center;
+    height: 500px;
+    width: 400px;
+    border: 5px solid black;
+    margin: 25px;
+    padding: 10px;
+    animation: rotate 20s infinite linear;
+}
