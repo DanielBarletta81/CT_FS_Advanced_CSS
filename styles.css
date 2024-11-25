@@ -54,7 +54,8 @@ a.link:hover {
 
 }
 @keyframes grow_button {
-   
+    from{transform: scale(1);}
+    to{transform: scale(2); }
 }
 
 button.keyframe {
@@ -67,7 +68,7 @@ button.keyframe {
 button.keyframe:hover {
     display: block;
     justify-self: center;
-    animation: grow_button 5s;
+    animation: grow_button 5s infinite linear;
     box-shadow: 2px 10px rgba(28, 26, 26, 0.4);
 }
 
